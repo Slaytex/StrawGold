@@ -1,0 +1,182 @@
+/*fonts*/
+
+@import "fonts/Avalon/avalon_bold_macroman/stylesheet.css";
+
+
+/*reset*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body {
+	line-height: 1;
+	width: 100%;
+	height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+	Global Styles
+
+*/
+.break {
+	clear: both;
+}
+.bold {
+	font-weight: bold;
+}
+.blue {
+	display: inline-block;
+	font-size: 12px;
+	color: #2fb8fd;
+}
+.underline {
+	text-decoration: underline;
+}
+body {
+	font-family: helvetica;
+	background: url("../images/bg.png");
+}
+#wrapper {
+	position: relative;
+	width: 905px;
+	height: 100%;
+	margin: auto;
+}
+#logo {
+	margin: 40px 0 75px 0;
+}
+#logo.homeDetail {
+	margin-bottom: 25px;
+}
+#mainNav {
+	margin-bottom: 18px;
+}
+#qoutesContainer {
+	margin-bottom: 45px;
+}
+.qouteHome h1 {
+	font-size: 40px;
+	margin: 0 0 25px 0;
+	font-family: "AvalonBold";
+}
+#content {
+	margin-bottom: 75px;
+}
+.project {
+	position: relative;
+	float: left;
+	margin-bottom: 9px;
+}
+.project .projectText {
+	display: none;
+}
+.project#guatemala {
+	margin-right: 9px;
+}
+.project#currency {
+	margin-right: 9px;
+}
+.project#book {
+	margin-right: 9px;
+}
+.project#photoapp {
+	margin-right: 9px;
+}
+#contactText {
+	float: left;
+	width: 405px;
+	font-size: 40px;
+}
+#contactForm {
+	float: right;
+	width: 500px;
+}
+#contactusForm input {
+	border: none;
+	margin-bottom: 15px;
+}
+#contactusForm #name {
+	margin-right: 17px;
+}
+#contactusForm #name, #contactusForm #email {
+	width: 220px;
+	height: 25px;
+	padding: 5px 0 0 15px;
+	background: url("../images/form/name_email.png") no-repeat;
+}
+#contactusForm #message {
+	width: 476px;
+	height: 65px;
+	padding: 5px 0 0 15px;
+	background: url("../images/form/message.png") no-repeat;
+}
+#contactusForm #submit {
+	float: right;
+	width: 124px;
+	height: 32px;
+	margin-right: 10px;
+	background: url("../images/form/sumbit.png") no-repeat;
+	cursor: pointer;
+}
+#credits {
+	font-size: 14px;
+	width: 225px;
+	margin-bottom: 30px;
+}
+.portfolioImg {
+	float: left;
+	margin-bottom: 5px;
+}
+.oneHalf {
+	float: left;
+	width: 450px;
+	margin-right: 2px;
+}
+.oneHalf.last {
+	margin-right: 0;
+}
+.oneFourth {
+	float: left;
+	width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
